@@ -1,0 +1,199 @@
+.features {
+    background-color: white;
+    margin: 20px 700px 0 650px;
+    padding: 0.1px 114px 0.1px 34px;
+    border-radius: 24px;
+    color: rgb(45, 179, 45);
+    box-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.1);
+    font-family: monospace;
+}
+
+/* Tablet and below (max-width: 768px) */
+@media (max-width: 768px) {
+    .features {
+        margin: 20px 50px;
+        padding: 10px 50px;
+    }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .features {
+        margin: 10px 20px;
+        padding: 10px 20px;
+        border-radius: 16px;
+    }
+}
+
+
+.header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.seco {
+    background-color: white;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: left;
+    max-width: 45%; 
+    box-sizing: border-box;
+}
+
+
+.seco img {
+    width: 65px;
+    margin-bottom: 10px;
+}
+
+
+h3 {
+    color: rgb(8, 255, 8);
+}
+
+
+.seco p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.world {
+    padding-left: 140px;
+}
+
+
+.grean {
+    background-color: green;
+    padding: 20px;
+    border-radius: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 300px;
+    margin-top: -650px;
+    margin-left: 750px;
+    z-index: 1;
+    position: relative;
+    padding-top: 5px;
+}
+
+
+.black {
+    background-color: rgb(44, 62, 44);
+    padding: 20px;
+    border-radius: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 300px;
+    color: aliceblue;
+    margin-left: 500px;
+    margin-top: -50px;
+    position: relative;
+}
+
+
+.double {
+    background-color: rgb(22, 29, 22);
+    padding: 20px;
+    border-radius: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 250px;
+    color: aliceblue;
+    margin-left: 700px;
+    margin-top: -30px;
+    position: relative;
+    text-align: end;
+    z-index: -1;
+    padding-top: 1px;
+}
+
+
+.white {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 250px;
+    color: rgb(47, 223, 8);
+    margin-left: 450px;
+    margin-top: -80px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    padding-top: 1px;
+}
+
+
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .seco {
+        max-width: 90%; 
+        margin: 10px 0; 
+    }
+
+    .grean, .black, .double, .white {
+        width: 90%; 
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .seco {
+        max-width: 100%; 
+        margin: 10px 0;
+        padding: 15px; 
+    }
+
+    .grean, .black, .double, .white {
+        width: 80%; 
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .double{
+        z-index: 1;
+    }
+
+    .world {
+        padding-left: 0px;
+        width: 30px;
+        margin-left: 0px;
+
+    }
+    .all{
+        margin-top: -700px;
+    }
+    .features{
+        text-align: center;
+    }
+    .white{
+        
+        
+        background-color: blue;
+        color: wheat;
+    }
+}
+
